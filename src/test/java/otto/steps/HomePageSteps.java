@@ -27,8 +27,8 @@ public class HomePageSteps implements En {
         });
 
         When("we accept cookies", () -> {
-            homePage.acceptCookies();
-        });
+
+            homePage.acceptCookies();});
 
         When("we press Mein Konto icon", () -> {
             homePage.goToMeinKonto();

@@ -20,6 +20,7 @@ public class ProductPageSteps implements En {
         });
 
         Then("add product in den Warenkorb",() ->{
+
             productPage.addToBasket();
         });
 

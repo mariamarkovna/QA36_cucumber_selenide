@@ -22,6 +22,7 @@ public class LoginPageSteps implements En {
         });
 
         And("we submit this form", () ->{
+
             loginPage.submit();
 
         });

@@ -13,12 +13,10 @@ public class ProductPage implements En {
 
 
     public void addToBasket() {
-
         $(inDenWarencorbBtn).click();
     }
 
     public void goToBasket() {
-
         $(zurWarencorbBtn).click();
     }
 }

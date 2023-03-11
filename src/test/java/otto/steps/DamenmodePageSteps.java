@@ -22,6 +22,7 @@ public class DamenmodePageSteps implements En {
        });
 
         Then("in Damenmode page click on product", () ->{
+
             damenmodePage.choseAProduct();
         });
     }

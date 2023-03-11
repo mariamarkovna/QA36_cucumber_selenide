@@ -12,6 +12,7 @@ public class BasketPage implements En {
     private static By weiterEinkaufenBtn = By.xpath("/html/body/div[1]/div/div[1]/div/div/section[2]/div[5]/div/div[1]/a");
 
     public void deleteProduct(){
+
         $(deleteBtn).click();
     }
 

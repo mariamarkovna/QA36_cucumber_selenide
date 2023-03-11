@@ -33,6 +33,7 @@ public class LoginPage  {
     }
 
     public void submit() {
+
         $(buttonSubmit).click();
     }
 }

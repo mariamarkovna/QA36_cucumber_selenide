@@ -21,6 +21,7 @@ public class BasketPageSteps implements En {
         });
 
         When("we delete product from Warenkorb", () ->{
+
             basketPage.deleteProduct();
         });
 

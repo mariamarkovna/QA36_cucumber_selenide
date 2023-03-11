@@ -23,9 +23,7 @@ public class HomePage {
     private  static By Damenbtn = By.cssSelector(".nav_navi-list--level-1 > li:nth-child(3) > a:nth-child(1)");
 
 
-    public void acceptCookies() {
-
-        $(okCookiesButton).click();
+    public void acceptCookies() {$(okCookiesButton).click();
     }
 
     public void goToMeinKonto(){
