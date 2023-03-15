@@ -14,5 +14,6 @@ Feature:Chose Product and add this one in Warenkorb
     Then we see chosen Product
 
     When we delete product from Warenkorb
-    And Click on Weiter einkaufen button
+    And check that the cart is empty
+    When Click on Weiter einkaufen button
     Then Home Page is loaded

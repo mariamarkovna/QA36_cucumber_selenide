@@ -62,9 +62,9 @@ public class HomePageSteps implements En {
                 });
 
 
-//        Then("Home Page is loaded", () ->{
-//            $(byText("Über uns")).should(exist);
-//        });
+        Then("Home Page is loaded", () ->{
+            $(byText("Über uns")).should(exist);
+        });
 
 
 
